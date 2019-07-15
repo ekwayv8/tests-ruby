@@ -25,9 +25,22 @@ def reverse_upcase_noLTA(string)
 	
 end
 
+# Methode permettant de rechercher une valeur donnée dans un array! 
+#À l'aide de la fonction include
+
+def array_42(array)
+	return array.include?(42)	
+end
+
+#Methode utilisant une succession de propriétés portant sur les arrays
+
+def magic_array(ar)
+	
+	ar.flatten.sort.map{|x|x*2}.delete_if{|x|x%3 == 0}.uniq
+end
 
 
-
+ 
 
 
 

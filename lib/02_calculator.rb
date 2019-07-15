@@ -53,9 +53,13 @@ def factorial(val)
 	return nil
 
   elsif val == 0
+
     return 1
+    
   else
-  	result = 1 
+
+  	result = 1
+
   	while val>0 
   		result = result *val
 
